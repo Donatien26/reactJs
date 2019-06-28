@@ -25,7 +25,7 @@ class Welcome extends Component {
 
     render() {
         return (
-            <div>
+            <div className = "Body">
                 <h1>Welcome {this.props.name} </h1>
                 <p>Le compteur vaut {this.state.count}</p>
                 <button onClick= {()=> this.addOne()}>ajouter 1 </button>
